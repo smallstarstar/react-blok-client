@@ -1,0 +1,13 @@
+{
+    "Login":{
+        "Login": "Login",
+        "UserName": "UserName",
+        "PleaseInputUserName": "PleaseInputUserName",
+        "Password": "Password",
+        "PleaseInputPassword": "PleaseInputPassword",
+        "Remember": "Remember",
+        "Register": "Register",
+        "Sure": "Sure",
+        "Cancel": "Cancel"
+    }
+}

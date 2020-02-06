@@ -1,0 +1,11 @@
+{
+    "ArticleBlok":{
+        "Commit":"评论",
+        "View": "查看",
+        "Collection": "点赞",
+        "Care": "关注",
+        "InTo": "进入",
+        "SupportSuccess": "点赞成功",
+        "PleaseLogin": "请登录"
+    }
+}

@@ -62,16 +62,19 @@ export default class HeaderTop extends Vue {
   private cleanLogin: Boolean = false;
   goUserCenter() {
     // 判断用户是否已经登录
-    let data: any = localStorage.getItem("userInfoOfBlok");
-    if (data) {
-      let userInfo = JSON.parse(data);
-      this.saveUserInfo(userInfo);
-      this.$router.push({
+    // let data: any = localStorage.getItem("userInfoOfBlok");
+    // if (data) {
+    //   let userInfo = JSON.parse(data);
+    //   this.saveUserInfo(userInfo);
+    //   this.$router.push({
+    //     path: "/my-center/user-info"
+    //   });
+    // } else {
+    //   // 用户不存在请登录以及注册的判断
+    // }
+    this.$router.push({
         path: "/my-center/user-info"
       });
-    } else {
-      // 用户不存在请登录以及注册的判断
-    }
   }
   handleCommand(e: any) {
     if (e === "cn") {
